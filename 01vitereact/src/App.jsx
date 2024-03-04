@@ -1,7 +1,16 @@
 import Suvo from './suvo.jsx'
+
+
+
 function App() {
+  const username = "Diggieee"
   return (
-    <Suvo></Suvo>
+    
+    <div>
+      <Suvo></Suvo>
+      <h1>Whats up { username }</h1>
+      
+    </div>
   )
 }
 
